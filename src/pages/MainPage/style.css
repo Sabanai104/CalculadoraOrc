@@ -1,0 +1,33 @@
+.mainPageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.mainPageTitle {
+    display: flex;
+    font-size: 3.2rem;
+    margin-top: 4rem;
+    color: var(--green-orc);
+    font-weight: lighter;
+}
+
+.mainPageText {
+    display: flex;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    font-weight: 500;
+}
+
+.mainPageButtonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+
+

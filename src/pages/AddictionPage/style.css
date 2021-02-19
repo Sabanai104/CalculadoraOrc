@@ -1,0 +1,70 @@
+.AddictionPageContainer {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.AddictionPageTitle {
+    display: flex;
+    font-size: 3.2rem;
+    margin-top: 4rem;
+    color: var(--green-orc);
+    font-weight: lighter;
+}
+
+.AddictionPageTitle2 {
+    display: flex;
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    color: var(--DarkGreen-orc);
+    font-weight: lighter;
+}
+
+.AddictionPageInputContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AddictionPageInput {
+    display: flex;
+    background-color: #EBEBEB;
+    color: #333333;
+    font-size: 1.1rem;
+    width: 13rem;
+    height: 3rem;
+    outline: none;
+    border: 0;
+    border-radius: 0.4rem;
+}
+
+.AddictionPagePlus {
+    font-size: 2.8rem;
+}
+
+.AddictionPageButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightGreen-orc);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 0;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.AddictionPageResult {
+    display: flex;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
