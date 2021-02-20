@@ -9,12 +9,14 @@
     display: flex;
     font-size: 3.2rem;
     margin-top: 4rem;
+    text-align: center;
     color: var(--green-orc);
     font-weight: lighter;
 }
 
 .mainPageText {
     display: flex;
+    text-align: center;
     font-size: 1.2rem;
     margin-top: 4rem;
     font-weight: 500;
@@ -23,10 +25,24 @@
 .mainPageButtonContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 3rem;
-    grid-row-gap: 4rem;
+    grid-column-gap: 3%;
+    grid-row-gap: 30%;
     margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
+}
+
+@media(max-width: 795px) {
+    .mainPageButtonContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 2rem;
+    }
+}
+
+@media(max-width: 441px) {
+    .mainPageTitle {
+        font-size: 2rem;
+    }
 }
 
 
